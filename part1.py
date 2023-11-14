@@ -21,7 +21,7 @@ st.metric(label="Speed", value="120ms²", delta="-1.4ms²")
 st.table(table)
 st.dataframe(table, use_container_width=True)
 st.image("image.gif", caption="Michael Scott", use_column_width=True)
-st.audio("audio.mp3")
+#st.audio("audio.mp3")
 #st.video can also be used
 
 #check = st.checkbox("Checkbox", value=True)
